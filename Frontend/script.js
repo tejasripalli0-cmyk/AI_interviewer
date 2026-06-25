@@ -3,7 +3,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 // ── CONFIG ─────────────────────────────────────────────────
-const BACKEND_BASE_URL = "";   // Leave blank — uses same host automatically
+const BACKEND_BASE_URL = "https://ai-interviewer-smib.onrender.com";   // Leave blank — uses same host automatically
 const INTERVIEW_DURATION = 15 * 60; // 15 minutes in seconds
 
 // ── ROLES ──────────────────────────────────────────────────
