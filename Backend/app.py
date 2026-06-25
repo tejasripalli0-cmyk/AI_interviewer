@@ -14,7 +14,7 @@ app = FastAPI()
 # 🔐 Permit cross-origin traffic safely
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://ai-interviewer-assistant-9q1q.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
